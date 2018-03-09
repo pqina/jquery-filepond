@@ -1,0 +1,24 @@
+{
+    "name": "jquery-filepond",
+    "version": "1.0.0",
+    "description": "A FilePond wrapper for jQuery",
+    "homepage": "https://pqina.nl/filepond",
+    "main": "index.js",
+    "dependencies": {},
+    "keywords": [
+        "jquery",
+        "filepond",
+        "file",
+        "upload",
+        "drag",
+        "drop",
+        "browse",
+        "image",
+        "preview"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "PQINA",
+        "url": "https://pqina.nl"
+    }
+}
