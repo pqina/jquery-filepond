@@ -16,17 +16,23 @@ Or form a CDN:
 
 <input type="file" class="my-pond" name="filepond"/>
 
-<!-- include jQuery first -->
+<!-- include jQuery library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 
-<!-- include FilePond core -->
+<!-- include FilePond library -->
 <script src="https://unpkg.com/filepond/dist/filepond.min.js"></script>
 
-<!-- include the wrapper -->
+<!-- include FilePond plugins -->
+<script src="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.min.js"></script>
+
+<!-- include FilePond jQuery adapter -->
 <script src="https://unpkg.com/jquery-filepond/filepond.jquery.js"></script>
 
 <script>
   $(function(){
+  
+    // First register any plugins
+    $.fn.filepond.registerPlugin(FilePondPluginImagePreview);
 
     // Turn input element into a pond
     $('.my-pond').filepond();
