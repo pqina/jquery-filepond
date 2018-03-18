@@ -46,7 +46,7 @@ Or form a CDN:
     });
 
     // Manually add a file using the addfile method
-    $('.my-pond').filepond('addFile', 'index.html').then(function(file){
+    $('.my-pond').first().filepond('addFile', 'index.html').then(function(file){
       console.log('file added', file);
     });
   
