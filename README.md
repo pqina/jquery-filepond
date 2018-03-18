@@ -55,7 +55,3 @@ Or form a CDN:
 ```
 
 [Read the docs for more information](https://pqina.nl/filepond/docs/)
-
-## Licensing
-
-[Read FilePond readme for licensing options](https://github.com/pqina/filepond#license)
