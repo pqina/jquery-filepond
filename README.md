@@ -2,7 +2,11 @@
 
 jQuery FilePond is a handy jQuery adapter for FilePond, a JavaScript library that can upload anything you throw at it, optimizes images for faster uploads, and offers a great, accessible, silky smooth user experience.
 
-<img src="https://github.com/pqina/filepond-github-assets/blob/master/filepond-animation-01.gif" width="370" height="400" alt=""/>
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pqina/jquery-filepond/blob/master/LICENSE)
+[![npm version](https://badge.fury.io/js/react-filepond.svg)](https://www.npmjs.com/package/jquery-filepond)
+[![Donate with PayPal](https://img.shields.io/badge/donate-PayPal.me-pink.svg)](https://www.paypal.me/rikschennink/10)
+
+<img src="https://github.com/pqina/filepond-github-assets/blob/master/filepond-animation-01.gif" width="370" alt=""/>
 
 Install from npm
 
