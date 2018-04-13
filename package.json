@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "A FilePond wrapper for jQuery",
     "homepage": "https://pqina.nl/filepond",
+    "repository": "pqina/jquery-filepond",
     "main": "index.js",
     "dependencies": {},
     "keywords": [
